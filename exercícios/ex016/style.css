@@ -1,0 +1,32 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    background-image: linear-gradient(to right,#F2BBBB, #F2CF8D );
+}
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #1c636b93;
+    width: 600px;
+    padding: 10px; /*para afastar o texto da margin*/
+    margin: auto; /*para centralizar o MAIN fixo na página*/
+
+}
+
+h1{
+color:#F29B9B;
+text-align: center;
+text-shadow: 1px 1px 2px #b47575bd;
+}
+
+h2{
+color: #106973;
+}
+
+p{
+    text-align: justify;
+}
