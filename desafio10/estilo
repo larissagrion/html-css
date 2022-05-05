@@ -1,0 +1,90 @@
+
+        body{
+            background-color: #9FEEB6;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+          
+        }
+        p{
+            font-family: 'idroid', 'Times New Roman', Times, serif;
+        }
+
+        header{
+            background-color: rgba(19, 175, 84, 0.589);
+            color: rgba(255, 255, 255, 0.973);
+            background-image: linear-gradient(to bottom, #57eb81e5, #44B865, #3D704B);
+            box-shadow: 1px, 1px, 1px rgba(0, 0, 0, 0.226);
+            margin: 0px;
+            padding: 10px;
+            text-align: center;
+            text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.349);;
+        
+        }
+
+        nav{
+            text-align: left;
+            padding: 3px;
+            background-color: #3D704B;
+        
+            
+        }
+
+        nav > a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px;
+
+        }
+
+        main{
+            background-color: white;
+            min-width: 400px;
+            max-width: 800px;
+
+            margin: auto;
+            padding-left: 1em;
+            padding-top: 0.3em;
+            box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.514);
+            border-radius: 3px;
+           
+        }
+
+        article > img{
+            width: 600px; 
+    
+           
+            
+        }
+        div{
+            background-color: rgb(198, 233, 221);
+            border-radius: 10px;
+        }
+        div > h2{
+            background-color: rgb(65, 151, 108);
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+           
+        }
+        div > p {
+            text-indent: 40px;
+            padding: 2px;
+        }
+
+ul{
+    list-style-type: none;
+    columns: 2;
+    list-style-image: url("imagens/favicon-16x16.png");
+    list-style-position: inside;
+}
+
+footer{
+    background-color:#286B3B;
+    color:white;
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+}
+footer > p{
+    margin: 0px;
+}
