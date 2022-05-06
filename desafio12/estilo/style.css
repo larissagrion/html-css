@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* configuração para ambos/ vh > altura mínina do corpo do site:*/
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    /* padding para afastar o parágrafo e vh p/ mexer no % da altura* e provocar efeito ao aumentar e diminuir a tela*/
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em; /*para afastar as linhas do texto */
+    padding-left: 30px; /*para afastar do lado esquerdo*/
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    background-color: rgb(66, 65, 65);
+    color: white;
+}
+
+/*VAI FACILITAR A LEITURA QUANDO A IMG FOR APLICADA ATRÁS*/
+section.imagem > p {
+    width: 400px; /*tamanho máx. da caixa*/
+    background-color: rgba(0, 0, 0, 0.267);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
