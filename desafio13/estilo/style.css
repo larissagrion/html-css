@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200&display=swap');
+
+:root{
+    --fontegeral: Verdana, Geneva, Tahoma, sans-serif;
+    --fontetop: 'Russo One', sans-serif;
+    --fontebody: 'Changa', sans-serif;
+}
+
+*{
+margin: 0;
+padding: 0;
+}
+
+html, body{
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lavenderblush;
+  
+}
+header{
+    background-image: linear-gradient(to bottom,#0D1026, #08348C,#d97e9fc5);
+    /* background-color: rgba(10, 10, 122, 0.87); */
+    padding-top: 50px;
+    
+}
+
+header > h1 > a{
+    color: lightskyblue;
+    text-decoration: none;
+}
+
+header > h1{
+    text-align: center;
+    font-size: 3em;
+    font-family: var(--fontetop);
+    letter-spacing: 1px ;
+    font-size: 5vw; /*para efeito ao diminuir ou aumentar a tela*/
+    
+    
+}
+
+header > p{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 50px;
+    font-family: var(--fontetop);
+    letter-spacing: 1px;
+    color:rgb(23, 23, 24);
+}
+
+
+ p{
+    font-family: var(--fontebody);
+    font-weight: bold;
+    padding-left: 10px;
+    padding-bottom: 2em;/*para afastar um parágrafo do outro*/
+}
+
+section{
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+   
+}
+
+section.imagem >p{
+    color: rgb(219, 219, 219);
+
+}
+section.imagem{
+    background-color: lightblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+
+}
+
+section.normal{
+    background-color: lightgray;
+}
+
+
+section#img1{
+    color: rgba(255, 240, 245, 0.87);
+    background-image: url(../starman2.jpg);
+    background-position: top center;
+}
+
+section#img2{
+    background-image: url(../children2.jpg);
+}
+
+section#img3{
+    color: rgba(255, 240, 245, 0.87);
+    
+    background-image: url(../star2.jpg);
+    background-position: right bottom;
+}
+
+a{
+    color: lavenderblush;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: lightpink;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    color: lavenderblush;
+    background-color: rgba(15, 15, 172, 0.795);
+}
