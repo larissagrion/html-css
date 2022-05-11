@@ -108,7 +108,8 @@ a:hover{
 }
 footer{
     text-align: center;
-    padding: 10px;
+    padding: 5px;
+    margin: 0px;
     color: lavenderblush;
     background-color: rgba(15, 15, 172, 0.795);
 }
