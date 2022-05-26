@@ -9,54 +9,114 @@
 <style>
     body{
         font-family: Georgia, 'Times New Roman', Times, serif;
+        background-image: linear-gradient(to top, #CB4FF0, #58EDB2, #2BA173);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    h1{
+        color: rgba(250, 235, 215, 0.938);
+        font-size: 1.5em;
+        font-variant: small-caps;
     }
 li#titulo{
     font-weight: bold;
 }
-
+li{
+    padding: 3px;
+}
+li#cor{
+    color: rgb(3, 58, 105);
+}
 </style>
 
 
 </head>
 <body>
-    <h1>Lista dos meus jogos favoritos</h1>
+    <h1>Lista de jogos favoritos dos anos 80/90</h1>
 
-    <ol>
-        <li type="disc" id="titulo">Nitendinho</li>
-        <ul type="square">
-            <li type="1">Mario Bros</li>
-                <li>Super Mario Bros 3</li>
-                <li>Mario: Lost Levels</li>  
+    <ul>
+        <li id="titulo">Nitendinho</li>
+        <ul>
+        <li type="1">Mario Bros</li>
+            <ul type="square">
+                <li id="cor">Super Mario Bros 3</li>
+                <li id="cor">Mario: Lost Levels</li>  
         </ul>
-    
+        </ul>
+        </li>
+      
+        <ol start="2">
         <li>Ninja Gaiden</li>
-        <ul type="square">
-        <li>Ninja Gaiden III</li>   
+            <ul type="square">
+            <li id="cor">Ninja Gaiden III</li>  
     </ul>
-
-    <li type="disc" id="titulo">Super Nitendo</li>
-    <ul>
-        <li type="1">Super Mario World</li>
-        <li type="1">Donkey Kong</li>
-    <ul type="square">
-            <li>Donkey Kong Country III</li>
-            <li>Donkey Kong Quest</li>
-    </ul>
-    
-    <li type="disc" id="titulo">Playsataion 1</li>
-    <ul>
-        <li type="1">Final Fantasy</li>
-        <ul type="square">
-            <li>Final Fantasy VII</li>
-            <li>Final Fantasy IX</li>
-        </ul>
-        <li type="1">Castlevania</li>
-        <ul type="square">
-            <li>Simphony of the Night</li>
-        </ul>
-    </ul>
-
     </ol>
 
+    <li id="titulo">Super Nitendo</li>
+        <ul>
+            <li type="1">Super Mario World</li>
+            <li type="1">Donkey Kong</li>
+                <ul type="square">
+                <li id="cor">Donkey Kong Country III</li>
+                <li id="cor">Donkey Kong Quest</li>
+        </ul>
+        </ul>
+        </ul>
+
+    <ul>
+    <li id="titulo">Playsataion 1</li>
+        <ul>
+        <li type="1">Final Fantasy</li>
+            <ul type="square">
+            <li id="cor">Final Fantasy VII</li>
+            <li id="cor">Final Fantasy IX</li>
+        </ul>
+        
+        <li type="1">Castlevania</li>
+            <ul type="square">
+            <li id="cor">Simphony of the Night</li>
+        </ul>
+        </ul>
+    
 </body>
 </html>
+
+
+<!-- <ol>
+    <li type="disc" id="titulo">Nitendinho</li>
+    <ul type="square">
+        <li type="1">Mario Bros</li>
+            <li>Super Mario Bros 3</li>
+            <li>Mario: Lost Levels</li>  
+    </ul>
+    <ol start="2">
+    <li>Ninja Gaiden</li>
+    <ul type="square">
+    <li>Ninja Gaiden III</li>  
+</ol> 
+</ul>
+
+<li type="disc" id="titulo">Super Nitendo</li>
+<ul>
+    <li type="1">Super Mario World</li>
+    <li type="1">Donkey Kong</li>
+<ul type="square">
+        <li>Donkey Kong Country III</li>
+        <li>Donkey Kong Quest</li>
+</ul>
+
+<li type="disc" id="titulo">Playsataion 1</li>
+<ul>
+    <li type="1">Final Fantasy</li>
+    <ul type="square">
+        <li>Final Fantasy VII</li>
+        <li>Final Fantasy IX</li>
+    </ul>
+    
+    <li type="1">Castlevania</li>
+    <ul type="square">
+        <li>Simphony of the Night</li>
+    </ul>
+</ul>
+
+</ol> -->
